@@ -6,7 +6,7 @@ on:
     branches: [ main ]
 jobs:
   build-and-push:
-    runs-on: macos-14 #self-hosted
+    runs-on: macos-14
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
